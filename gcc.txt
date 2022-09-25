@@ -1,0 +1,12 @@
+Josiah Moltz
+Systems pd 3
+R00 -- *CLANG* MR. MITTENS STAY OFF THE SHELF
+2022-09-24
+time spent: AHAHAH
+
+DISCO
+0. gcc and clang are related (not completely sure how??)
+1. gcc and clang FILES (/usr/bin/gcc and /usr/bin/clang) are IDENTICAL (`$diff clang gcc` yields nothing)
+
+QCC
+0. WHATS THE DIFF WHY SO SAD :((
