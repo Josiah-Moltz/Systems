@@ -1,0 +1,20 @@
+# c stuffs
+*.out
+*.o
+
+# BOSS XTRAS - ty Mr. Mykolyk
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# OS X Files #
+.DS_Store
+._*
+_*
+.Spotlight*
+.Trashes
+
+# Windows Files #
+Thumbs.db
+ehthumbs.db
+
+# Filenames with special characters
+**/*[\\/\:;*?!'"<>|$º•¶§∞¢£]*
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
