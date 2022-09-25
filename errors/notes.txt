@@ -1,0 +1,14 @@
+Josiah Moltz
+Systems pd3
+R01 STDERR I barely even know her!
+time spent: AHAHAHAHAH
+
+STDIN is represented by 0
+STDOUT =\\= 1
+STDERR =\\= 2
+
+redirection works as follows: `n>` redirects `n` to whatever follows the command
+
+as far as I understand, '>&n' works as a way to direct stuff into 'n'.
+Aparently it also creates a copy of 'n', so whatever you direct won't rewrite 'n'
+
