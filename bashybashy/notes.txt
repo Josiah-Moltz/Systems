@@ -1,0 +1,1 @@
+You can do force bash to do .profile and .bashrc by typing . .profile and such 
