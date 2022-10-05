@@ -1,0 +1,12 @@
+FOR BASH:`$help <COMMAND NAME>` will help (ahah) you with a BUILTIN command
+This will only work on BASH BUILTINS not commands for the terminal. 
+
+FOR ZSH: `$man zshbuiltins` will LIST the zsh builtins. help unfortunately does not exist
+
+       . file [ arg ... ]
+              Read commands from file and execute them in the current shell
+              environment.
+
+In general, give the file a full path (./file or smth).
+zsh will search through $path to find file instead of you know being intelligent.
+
