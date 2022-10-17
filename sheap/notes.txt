@@ -1,0 +1,2 @@
+Statically allocated means on the heap(?)
+Non-static stuff is on the stack(?)
