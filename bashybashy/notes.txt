@@ -1,1 +1,13 @@
-You can do force bash to do .profile and .bashrc by typing . .profile and such 
+FOR BASH:`$help <COMMAND NAME>` will help (ahah) you with a BUILTIN command
+This will only work on BASH BUILTINS not commands for the terminal. 
+
+FOR ZSH: `$man zshbuiltins` will LIST the zsh builtins. help unfortunately does not exist
+
+       . file [ arg ... ]
+              Read commands from file and execute them in the current shell
+              environment.
+
+In general, give the file a full path (./file or smth).
+Both zsh and bash will search through $PATH to find file before checking locally
+
+You can force bash to do .profile and .bashrc by typing . .profile and such 
