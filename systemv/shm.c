@@ -22,6 +22,7 @@ int main() {
   printf("size: %ld\n", info.shm_segsz);  // hehe rounds to 4
   printf("nattch: %d\n", info.shm_nattch);
   shmctl(shmid, IPC_RMID, &info);
+  shmctl(shmid, IPC_STAT, &info);
 
   printf("size: %ld\n", info.shm_segsz);  // THESE DON'T CHANGE?
   printf("nattch: %d\n", info.shm_nattch);
